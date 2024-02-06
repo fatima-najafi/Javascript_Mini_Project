@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Baseketball Scoreboard</h1>
+      <div class="container">
+        <div class="home-container">
+          <div class="home">
+            <h3>HOME</h3>
+            <div class="result" id="home">0</div>
+            <div class="container-btn">
+              <button id="home-btn-1">+1</button>
+              <button id="home-btn-2">+2</button>
+              <button id="home-btn-3">+3</button>
+            </div>
+          </div>
+          <div class="home">
+            <h3>HOME</h3>
+            <div class="result" id="home-fouls">0</div>
+            <div class="container-btn">
+              <button id="home-fouls-btn">+1</button>
+            </div>
+          </div>
+        </div>
+
+        <button id="reset">Reset</button>
+        <button id="save">Save</button>
+
+        <button id="start">Start</button>
+
+        <div class="guest-container">
+          <div class="guest">
+            <h3>GUEST</h3>
+            <div class="result" id="guest">0</div>
+            <div class="container-btn">
+              <button id="guest-btn-1">+1</button>
+              <button id="guest-btn-2">+2</button>
+              <button id="guest-btn-3">+3</button>
+            </div>
+          </div>
+          <div class="guest-fouls">
+            <h3>GUEST</h3>
+            <div class="result" id="guest-fouls">0</div>
+            <div class="container-btn">
+              <button id="guest-fouls-btn">+1</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scores">
+        <p id="home-score">Home-score:</p>
+        <p id="guest-score">Guest Score:</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
